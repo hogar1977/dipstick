@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "io.github.hogar1977.dipstick",
   "name": "Dipstick",
-  "version": "1.0.0",
+  "version": "0.9.0",
   "author": "hogar1977",
   "license": "MIT",
   "description": "Check every level on the machine: CPU, GPU, temperatures, RAM, /tmp, disks and network in one compact row, with safe /tmp and /boot cleanup.",

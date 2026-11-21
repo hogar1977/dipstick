@@ -19,7 +19,7 @@ omarchy plugin remove io.github.hogar1977.dipstick
 ## Using it
 
 - **Left click** any item to open the popup on that item's page.
-- **Right click** the CPU to open `btop`.
+- **Right click** anywhere on Dipstick to open `btop`.
 - **Hover** an item for its exact value.
 - In the popup, `Tab` or `h`/`l` changes page, `j`/`k` moves, and `Esc` closes.
 - On the Temp page, `x` or `Enter` cleans the selected row, `P` cleans all stale items, `G` rescans, `v` switches view and `/` searches.

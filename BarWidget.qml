@@ -74,7 +74,7 @@ Panel {
 
   function handlePress(key, button) {
     if (button === Qt.RightButton) {
-      if (key === "cpu") runRightClickCommand()
+      runRightClickCommand()
       return
     }
     if (button !== Qt.LeftButton) return
