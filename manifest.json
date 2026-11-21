@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "io.github.hogar1977.dipstick",
+  "name": "Dipstick",
+  "version": "1.0.0",
+  "author": "hogar1977",
+  "license": "MIT",
+  "description": "Check every level on the machine: CPU, GPU, temperatures, RAM, /tmp, disks and network in one compact row, with safe /tmp and /boot cleanup.",
+  "kinds": [
+    "service",
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "service": "Service.qml",
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Dipstick",
+    "description": "Compact rings for CPU, GPU, temperatures, RAM, /tmp, disks and network.",
+    "category": "System",
+    "allowMultiple": false,
+    "defaultSection": "right",
+    "defaults": {},
+    "schema": []
+  },
+  "repository": "https://github.com/hogar1977/dipstick"
+}
